@@ -1,5 +1,5 @@
 from django.contrib import admin
-
+admin.site.site_header = 'MGN SCC'
 # Register your models here.
 from .models import Clinic
 class ClinicAdmin(admin.ModelAdmin):
